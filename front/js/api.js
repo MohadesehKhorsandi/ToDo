@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://von.bludurk.xyz:3000";
 
 export async function register(user) {
   try {
