@@ -1,0 +1,80 @@
+/* dark-mode.css */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+body.dark-mode {
+  background: rgb(18, 20, 33);
+  background: linear-gradient(
+    45deg,
+    rgba(18, 20, 33, 1) 12%,
+    rgba(16, 19, 41, 1) 38%,
+    rgba(53, 71, 67, 1) 67%,
+    rgba(6, 9, 37, 1) 98%
+  );
+}
+body .bg {
+  background: rgb(18, 20, 33);
+  background: linear-gradient(
+    45deg,
+    rgba(18, 20, 33, 1) 4%,
+    rgba(1, 1, 6, 1) 28%,
+    rgba(27, 45, 41, 1) 49%,
+    rgba(9, 10, 25, 1) 69%
+  );
+}
+
+body #custom-card {
+  background: #6c757d;
+  border-radius: 20px;
+  display: flex;
+}
+body #custom-card h5,
+p,
+h1 {
+  color: black;
+}
+body #aLogin,
+#aRegister,
+#logIn {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #343a40;
+}
+
+body .todo {
+  background-color: #6c757d;
+}
+body .todo__screen {
+  background-color: #343a40;
+}
+body .todo__screen .form-toggler {
+  background-color: #212529;
+}
+body .todo__screen .form-toggler.active {
+  background-color: #ddbea9;
+  box-shadow: 0 3px 11px 1px rgba(181, 181, 181, 0.4);
+}
+body .add-task-form .new-task-value {
+  border: 2px solid #343a40;
+}
+body .add-task-form .add-task-button {
+  border: 2px solid #343a40;
+  background-color: #343a40;
+}
+body .todo__filter .active-bar {
+  background-color: #343a40;
+}
+body .todo__filter .filter-item:hover i,
+.todo__filter .filter-item.active i {
+  color: #343a40;
+}
+body .todo-item .fa-pen {
+  font-size: 15px;
+  color: #343a40;
+}
+body .todo-item .fa-times {
+  color: #ffb3c6;
+}
+body .custom-radio {
+  color: #343a40;
+}

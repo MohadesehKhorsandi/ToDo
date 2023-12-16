@@ -1,0 +1,17 @@
+*,::after,::before {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button {
+    font-family: 'Montserrat';
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+}

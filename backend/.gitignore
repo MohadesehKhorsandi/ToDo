@@ -1,0 +1,28 @@
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.env
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore

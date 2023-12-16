@@ -1,0 +1,8 @@
+### search
+POST http://localhost:3000/user/search
+Content-Type: application/json
+Authorization: Bearer {{$dotenv token}}
+
+{
+    "query": "Ma"
+}

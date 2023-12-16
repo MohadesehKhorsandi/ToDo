@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./css/dark-mode.css"
+      id="dark-mode-styles"
+      disabled
+    />
+    <link rel="stylesheet" href="./css/toggle.css" />
+
+    <!-- Font for Quote text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <script>
+      localStorage.setItem("flag", "false");
+    </script>
+    <div class="container-fluid bg min-vh-100">
+      <input type="checkbox" class="l" id="theme" />
+
+      <div
+        class="container min-vh-100 d-flex align-items-center justify-content-center"
+      >
+        <div id="custom-card">
+          <div class="card-1">
+            <img id="girlImage" src="./images/girl.jpg" alt="" />
+          </div>
+          <div class="card-2">
+            <div class="card-2-content">
+              <h1>Login</h1>
+              <p class="text-muted">Welcome to my ToDo, log in here easily.</p>
+              <div class="inputs">
+                <label for="userName">
+                  <h5 class="cust-clr">Username</h5>
+                </label>
+                <input
+                  class="form-control"
+                  name="userName"
+                  id="userName"
+                />
+                <label for="userPassword">
+                  <h5 class="cust-clr">Password</h5>
+                </label>
+                <input
+                  class="form-control"
+                  type="password"
+                  name="userPassword"
+                  id="passwordLogin"
+                />
+              <p class="globalErr text-danger"></p>
+              <button id="btnLogin">Login</button>
+              <p>
+                Not Registered?
+                <span><a id="aRegister" href="./signup.html">Sign Up</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
